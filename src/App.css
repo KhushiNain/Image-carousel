@@ -6,10 +6,43 @@
   align-items: center;
   justify-content: center;
   background-color: grey;
-
 }
 
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+.image{
+  width: 64%;
+  height: 85%;
+}
+.text{
+  position: absolute;
+  padding-inline: 15px;
+  letter-spacing: 2px;
+  background-color: rgba(255, 255, 255,0.7);
+  border-radius: 5px;
+}
+.heading{
+  top: 20%;
+  font-size: 65px;
+}
+.subheading{
+  bottom: 20% ;
+  font-size: 50px;
+  font-weight: normal;
+}
+.left-btn{
+  left:18%
+}
+.right-btn{
+  right: 18%;
+}
+.button{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-block: 41vh;
+  padding-inline: 35px;
+  color: white;
 }
